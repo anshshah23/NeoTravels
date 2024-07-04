@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@300&family=Rubik+Glitch&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+   overflow: hidden;
+}
+
+.container img {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+
+
+#about {
+  display: flex;
+}
+
+.text {
+  position: absolute;
+  top: 0;
+  display: flex;
+  color: rgb(255, 255, 255);
+  transition: 1s all;
+}
+
+.text :hover {
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik Glitch", cursive;
+  text-shadow: 0 0 3px cyan, 0 0 5px cyan, 0 0 10px blue,
+    0 0 15px rgb(255, 72, 103), 0 0 18px red;
+}
+
+.name {
+  margin: 100px 100px;
+  font-size: 25px;
+}
+
+.dots1 {
+  text-align: center;
+  width: 50vw;
+  margin: auto;
+  z-index: 100;
+  position: absolute;
+  top: 80vh;
+  left: 45vw;
+}
+
+.dot1 {
+  list-style-type: circle;
+  /* overflow: hidden; */
+  font-size: 50px;
+  /* border: 2px solid black; */
+}
+
+.dots2 {
+  text-align: center;
+  width: 50vw;
+  margin: auto;
+  z-index: 100;
+  position: absolute;
+  top: 80vh;
+  left: 145vw;
+}
+
+.dot2 {
+  list-style-type: circle;
+  /* overflow: hidden; */
+  font-size: 50px;
+  /* border: 2px solid black; */
+}
+
+.dots3 {
+  text-align: center;
+  width: 50vw;
+  margin: auto;
+  z-index: 100;
+  position: absolute;
+  top: 80vh;
+  left: 245vw;
+}
+
+.dot3 {
+  list-style-type: circle;
+  /* overflow: hidden; */
+  font-size: 50px;
+  /* border: 2px solid black; */
+}
+
+.dots4 {
+  text-align: center;
+  width: 50vw;
+  margin: auto;
+  z-index: 100;
+  position: absolute;
+  top: 80vh;
+  left: 345vw;
+}
+
+.dot4 {
+  list-style-type: circle;
+  /* overflow: hidden; */
+  font-size: 50px;
+  /* border: 2px solid black; */
+}
+
+li {
+  color: white;
+  float: left;
+  margin: 20px;
+}
+
+li:hover {
+  list-style-type: disc;
+  background-color: black;
+}
+
+.But {
+  display: flex;
+  position: absolute;
+  top: 10vh;
+  left: 90vw;
+  z-index: 100;
+  width: 120px;
+}
+.But2 {
+  display: flex;
+  position: absolute;
+  top: 10vh;
+  left: 190vw;
+  z-index: 100;
+  width: 120px;
+}
+.But3 {
+  display: flex;
+  position: absolute;
+  top: 10vh;
+  left: 290vw;
+  z-index: 100;
+  width: 120px;
+}
+.But4 {
+  display: flex;
+  position: absolute;
+  top: 10vh;
+  left: 390vw;
+  z-index: 100;
+  width: 120px;
+}
+
+.btn {
+  padding: 20px;
+  border: 4px solid var(--btn);
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.6s;
+  font-size: 1.5em;
+}
+
+.btn:hover {
+  background-color: var(--btn);
+  transform: scale(1.1);
+  transform: translateY(-10px);
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik Glitch", cursive;
+  text-shadow: 0 0 3px cyan, 0 0 5px cyan, 0 0 10px blue,
+    0 0 15px rgb(255, 72, 103), 0 0 18px red;
+}
+
+.homebtn
+{
+  position: absolute;
+  z-index: 150;
+  padding:4px 20px;
+  top: 10px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 2px cyan,0 0 4px cyan,0 0 5px cyan,0 0 10px cyan;
+  
+  cursor: pointer;
+}
+.homebtn a
+{
+  text-decoration: none;
+  color: cyan;
+}
